@@ -1,5 +1,5 @@
 <!-- BARRA DE ACESSIBILIDADE -->
-		<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default" id="acessibilidade">
             <div class="container">
                 <div>
                         <a href="#content" accesskey="1"><p class="navbar-text">Ir para conteudo [1]</p></a>
