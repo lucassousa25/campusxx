@@ -928,3 +928,7 @@ Autor : Orivelton Cesar - www.orivelton.com.br
   background: #FFFFFF;
 }
 /*END - Contraste Preto*/
+
+@media (max-width: 1200px) {
+  #acessibilidade{display: none;}
+}
