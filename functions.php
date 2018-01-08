@@ -124,7 +124,8 @@ function campusxx_scripts() {
 	wp_enqueue_script( 'campusxx-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 	// Javascript para a Barra de Acessibilidade
 	wp_enqueue_script( 'contraste-barra-acessibilidade', get_template_directory_uri() . '/js/contraste.js', array(), false, true );
-	
+	//Importação do JQuery para o funcionamento do zoom da barra de acessibilidade
+	wp_enqueue_script( 'zoom-barra-acessibilidade', 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js', array('jquery'));
 	// Bootstrap Core Javascript
 	wp_enqueue_script('bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array('jquery'));
 

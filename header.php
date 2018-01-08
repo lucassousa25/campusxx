@@ -20,6 +20,25 @@
 
 	<?php wp_head(); ?>
 	
+		<script>
+		function zoomMenos() {
+			$("p").css({"font-size":"100%"});
+			$(".navbar-text").css({"font-size":"90%"});
+		}
+		
+		function zoomMais() {
+			$("p").css({"font-size":"200%"});
+			$(".navbar-text").css({"font-size":"180%"});
+			
+		}
+	</script>
+	
+	<style>
+		.navbar-text {
+			font-size: 90%;
+		}
+	</style>
+	
 </head>
 
 <body <?php body_class(); ?>>
